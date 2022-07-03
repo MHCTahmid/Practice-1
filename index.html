@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="dont submit">
+        <h2>Contact Me</h2>
+        <p>
+            <label for="f_n">First Name: </label>
+            <input type="text" id="f_n" placeholder="First Name">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="col">Favourite Color: </label>
+            <input type="color" id="col">
+            <button>Submit</button>
+        </p>
+        <p>
+            <label for="date">Date of Birth: </label>
+            <input type="date" id="date">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="em">Email: </label>
+            <input type="email" id="em" placeholder="Email">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" placeholder="Password">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="file">Chose Your File: </label>
+            <input type="file" id="file"> <br>
+            <button>Submit</button>
+        </p>
+        <p>
+            <label for="mes">Message: </label> <br>
+            <textarea name="mess" id="mes" cols="30" rows="10" placeholder="Your Message"></textarea> <br>
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <input type="checkbox" id="i_agree">
+            <label for="i_agree" name="i_agree_to_the_condition">I agree</label>
+        </p>
+
+        <p>
+            <label for="ques">Select Os System you have: </label> <br>
+        <p>
+            <input type="radio" name="ques" id="xp">
+            <label for="xp">XP</label> <br>
+            <input type="radio" name="ques" id="w7">
+            <label for="w7">Win 7</label>
+        </p>
+        </p>
+    </form>
+
+
+    <hr>
+    <form action="https://www.google.com/search" target="_blank">
+        <p>
+            <label for="Goggle">Search Goggle: </label>
+            <input type="text" id="Goggle" placeholder="Search Goggle" name="q">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+    </form>
+
+    <form action="donts submit">
+        <p>
+            <label for="ques">Chose Your Cloth Size: </label>
+            <select name="qes" id="ques">
+                <option value="">--Chose Your Shirt Size--</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+            </select> <br>
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
